@@ -5018,6 +5018,10 @@ span.remove_bookmark a:hover {
     top: auto;
     transform: none;
 }
+/* Fix: hide arrow row in recent votes profile */
+#recent_votes tr.colhead:nth-of-type(2) {
+    display: none;
+}
 #user table.recent tr:nth-of-type(2) td {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
