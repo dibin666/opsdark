@@ -780,39 +780,47 @@ button,
 input[type=button],
 input[type=submit] {
     cursor: pointer;
-    outline: 0;
-    -webkit-transition: all .1s linear;
-    -o-transition: all .1s linear;
+    outline: none;
     transition: all .1s linear;
-    background: -webkit-linear-gradient(top, #1a1a1b, #404044 1px, #2e2e30 2px, #222225);
-    background: -o-linear-gradient(top, #1a1a1b 0, #404044 1px, #2e2e30 2px, #222225 100%);
     background: linear-gradient(180deg, #1a1a1b 0, #404044 1px, #2e2e30 2px, #222225);
     border: 1px solid #1b1b1b;
     border-radius: 5px;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
     box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
     color: #7f7f7f;
     padding: 6px 10px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .5)
 }
+
 button:hover,
 input[type=button]:hover,
 input[type=submit]:hover {
-    background: -webkit-linear-gradient(top, #1d1d20, #3c3c3e 1px, #2e2e30 2px, #212124);
-    background: -o-linear-gradient(top, #1d1d20 0, #3c3c3e 1px, #2e2e30 2px, #212124 100%);
     background: linear-gradient(180deg, #1d1d20 0, #3c3c3e 1px, #2e2e30 2px, #212124);
     color: #bbb
 }
-button:active,
+
 button:focus,
-input[type=button]:active,
 input[type=button]:focus,
-input[type=submit]:active,
 input[type=submit]:focus {
-    background: -webkit-linear-gradient(top, #1a1a1a, #323232 1px, #202020 2px, #212121);
-    background: -o-linear-gradient(top, #1a1a1a 0, #323232 1px, #202020 2px, #212121 100%);
+    background: linear-gradient(180deg, #1a1a1b 0, #404044 1px, #2e2e30 2px, #222225);
+    color: #7f7f7f;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3)
+}
+
+button:active,
+input[type=button]:active,
+input[type=submit]:active {
     background: linear-gradient(180deg, #1a1a1a 0, #323232 1px, #202020 2px, #212121);
     color: #444
+}
+
+button:disabled,
+input[type=button]:disabled,
+input[type=submit]:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    background: linear-gradient(180deg, #2e2e30 0, #5a5a5c 1px, #404044 2px, #333337);
+    color: #555;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2)
 }
 input[type=email]:disabled,
 input[type=password]:disabled,
