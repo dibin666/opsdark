@@ -5583,3 +5583,13 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
     overflow: hidden;
     width: auto;
 }
+
+/* Forum post header: truncate long user titles */
+.forum_post .colhead_dark .user_title {
+    display: inline-block;
+    max-width: 650px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+}
