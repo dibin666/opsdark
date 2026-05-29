@@ -253,14 +253,9 @@ table.forum_post .colhead_dark td {
     padding: 0 0 0 15px;
     vertical-align: middle;
     position: relative !important;
-    z-index: 5000;
-    background: #0e0f11;
-    background: -webkit-linear-gradient(top, #271818, ##0e0f11);
-    background: -o-linear-gradient(top, #271818 0, #0e0f11 100%);
-/*This is the gradient for the forum posts where username is etc */    
+    z-index: auto;
     background: linear-gradient(180deg, #0e1f1a 0, #0d4839);
     border: 1px solid #104336;
-/* This affects the color of User Classes and Post time in the forums */
     color: #919696;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .4)
 }
