@@ -4557,16 +4557,23 @@ table.staff {
     padding: 2px;
     width: 90px
 }
-.torrent_table tr.group:has(.group_image:hover) {
-    position: relative;
-    z-index: 1000
+.torrent_table,
+.torrent_table tbody {
+    overflow: visible !important
 }
-.torrent_table tr.group:has(.group_image:hover) > td {
+.torrent_table:has(.group_image:hover) tr,
+.torrent_table:has(.group_image:hover) td {
     position: relative;
-    z-index: 1000
+    z-index: 0
 }
-.group_image:hover {
-    z-index: 1001
+.torrent_table tr.group:has(.group_image:hover),
+.torrent_table tr.group:has(.group_image:hover) > td,
+.torrent_table tr.group:has(.group_image:hover) .td_info,
+.torrent_table tr.group:has(.group_image:hover) .big_info,
+.torrent_table tr.group:has(.group_image:hover) .group_image {
+    overflow: visible !important;
+    position: relative !important;
+    z-index: 2147483000 !important
 }
 .group_image img {
     -webkit-transition: -webkit-transform .2s ease;
@@ -4585,7 +4592,7 @@ table.staff {
 .group_image:hover img {
     border-radius: 0;
     position: absolute;
-    z-index: 1002;
+    z-index: 2147483001 !important;
     -webkit-transform: scale(3.2);
     -ms-transform: scale(3.2);
     transform: scale(3.2);
