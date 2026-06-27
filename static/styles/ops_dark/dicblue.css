@@ -4435,6 +4435,7 @@ table.staff {
     margin-bottom: 35px!important;
     width: 100%;
     border: 1px solid #282b2e;
+    font-size: 14px;
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .6);
     box-shadow: 0 0 5px rgba(0, 0, 0, .6)
 }
@@ -4470,6 +4471,7 @@ table.staff {
     font-family: apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
     font-size: 1.03em;
     font-style: italic;
+    line-height: 1.65;
     padding: 2px 5px;
     background: #1D1E1F;
     -webkit-box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, .4), inset 0 -3px 3px -3px rgba(0, 0, 0, .4);
@@ -4478,7 +4480,7 @@ table.staff {
 /*Color for Edition, WEB Catalog number etc */
 .torrent_table tr.edition td {
     color: #8fc2ff!important;
-    padding: 0;
+    padding: 3px 15px 4px 0;
     border-bottom: 1px solid #252525;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .4)
 }
@@ -4542,6 +4544,7 @@ table.staff {
     background: hsla(0, 40%, 88%, .02)
 }
 .group_image {
+    height: 90px;
     margin: 3px 10px 3px 3px;
     min-height: 90px;
     min-width: 90px;
@@ -4551,7 +4554,19 @@ table.staff {
     background: #010101;
     -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, .4);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, .4);
-    padding: 2px
+    padding: 2px;
+    width: 90px
+}
+.torrent_table tr.group:has(.group_image:hover) {
+    position: relative;
+    z-index: 1000
+}
+.torrent_table tr.group:has(.group_image:hover) > td {
+    position: relative;
+    z-index: 1000
+}
+.group_image:hover {
+    z-index: 1001
 }
 .group_image img {
     -webkit-transition: -webkit-transform .2s ease;
@@ -4570,6 +4585,7 @@ table.staff {
 .group_image:hover img {
     border-radius: 0;
     position: absolute;
+    z-index: 1002;
     -webkit-transform: scale(3.2);
     -ms-transform: scale(3.2);
     transform: scale(3.2);
@@ -4588,6 +4604,28 @@ table.staff {
 .vote_matches_table .colhead td {
     padding-left: 8px;
     padding-right: 25px
+}
+.torrent_table .colhead td:has(> a > svg) {
+    line-height: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center
+}
+.torrent_table .colhead td:has(> a > svg) > a {
+    align-items: center;
+    color: #8fc2ff !important;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1
+}
+.torrent_table .colhead td:has(> a > svg) > a:hover {
+    color: #b8d7ff !important
+}
+.torrent_table .colhead td:has(> a > svg) svg {
+    display: block;
+    height: 18px;
+    width: 18px;
+    stroke-width: 2.15
 }
 .torrent_table .colhead_dark {
     background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(9, 9, 9, .4)), to(hsla(0, 0%, 9%, .35)));
