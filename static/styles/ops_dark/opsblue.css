@@ -341,7 +341,7 @@ table.staff .rowb {
 table.staff tr.colhead_dark td,
 /*Seems to affect the Torrents Size and the area that is like 'this album is in 2 collages' */
 table.staff tr.colhead td {
-    color: #4285f4;
+    color: #2b88ef;
     font-size: 1.1em;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -386,7 +386,7 @@ table.staff .colhead a {
 .users_reports_table .colhead a:hover,
 .wiki_log_table .colhead a:hover,
 table.staff .colhead a:hover {
-    color: #93c5fd
+    color: #8fc2ff
 }
 #better table tr.colhead_dark strong,
 #better table tr.colhead strong,
@@ -636,7 +636,7 @@ a:hover {
 }
 a:hover {
 /*Link Hover Color */
-    color: #93c5fd
+    color: #8fc2ff
 }
 #userform td:not(.label) > strong,
 h1,
@@ -655,7 +655,7 @@ h2 {
 #userform td:not(.label) > strong,
 .donation_info_title,
 h3 {
-    color: #4285f4;
+    color: #2b88ef;
     font-size: 1.3em;
     margin-bottom: 5px;
     padding-bottom: 5px;
@@ -664,7 +664,7 @@ h3 {
 }
 h2 a,
 h3 a {
-    color: #4285f4
+    color: #2b88ef
 }
 p {
     margin: 10px 0
@@ -945,10 +945,10 @@ h3 strong {
     font-weight: 300
 }
 .header h2 a {
-    color: #4285f4
+    color: #2b88ef
 }
 .header h2 a:hover {
-    color: #93c5fd
+    color: #8fc2ff
 }
 td.label {
     font-weight: 400;
@@ -1069,7 +1069,7 @@ p.min_padding {
     font-size: 1.1em;
     padding: 4px 10px 5px;
     border-bottom: 1px solid #303134;
-    color: #4285f4;
+    color: #2b88ef;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .35)
 }
 .head strong {
@@ -1275,7 +1275,7 @@ a.vote_tag_up:hover {
 .sidebar .colhead_dark,
 /*Add Artist, Add to collage etc */
 .sidebar .head {
-    color: #4285f4;
+    color: #2b88ef;
     font-family: apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
     font-weight: 400;
     padding: 2px 5px 7px 4px;
@@ -1296,7 +1296,7 @@ a.vote_tag_up:hover {
 .colhead a:hover,
 .sidebar .colhead_dark a:hover,
 .sidebar .head a:hover {
-    color: #4285f4
+    color: #2b88ef
 }
 #artist #discog_table > .center a,
 #artist .header > .linkbox a,
@@ -1709,80 +1709,80 @@ strong.mature + strong + br + a {
 #userinfo_minor:hover li:hover a {
     background-position: right 5px center, 0 bottom;
     text-decoration: none;
-    color: #4285f4
+    color: #2b88ef
 }
 /*All the gradients for the user panel */
 #nav_inbox a {
-    background-image: url(../assets/icons/Header-Messages-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Messages-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Messages-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Messages-read.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Messages-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Messages-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Messages-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Messages-read.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_staffinbox a {
-    background-image: url(../assets/icons/Header-Staff-messages.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Staff-messages.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Staff-messages.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Staff-messages.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Staff-messages.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Staff-messages.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Staff-messages.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Staff-messages.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_uploaded a {
-    background-image: url(../assets/icons/Header-Uploads.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Uploads.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Uploads.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Uploads.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Uploads.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Uploads.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Uploads.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Uploads.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_bookmarks a {
-    background-image: url(../assets/icons/Header-Bookmark.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Bookmark.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Bookmark.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Bookmark.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Bookmark.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Bookmark.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Bookmark.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Bookmark.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_notifications a {
-    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Notifications-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Notifications-read.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Notifications-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Notifications-read.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_subscriptions a {
-    background-image: url(../assets/icons/Header-Subscriptions-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Subscriptions-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Subscriptions-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Subscriptions-read.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Subscriptions-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Subscriptions-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Subscriptions-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Subscriptions-read.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_comments a {
-    background-image: url(../assets/icons/Header-Comments.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Comments.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Comments.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Comments.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Comments.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Comments.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Comments.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Comments.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_friends a {
-    background-image: url(../assets/icons/Header-Friends.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Friends.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Friends.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Friends.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Friends.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Friends.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Friends.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Friends.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #userinfo_minor #nav_better a {
-    background-image: url(../assets/icons/Header-Better.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Better.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Better.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Better.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Better.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Better.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Better.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Better.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_posts a {
-    background-image: url(../assets/icons/Header-Posts.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Posts.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Posts.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Posts.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Posts.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Posts.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Posts.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Posts.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_logchecker a {
-    background-image: url(../assets/icons/Wiki-Log.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Wiki-Log.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Wiki-Log.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Wiki-Log.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Logchecker.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Logchecker.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Logchecker.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Logchecker.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #nav_subscriptions.new-subscriptions a {
-    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #4285f4), to(#5a8cc5));
-    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #4285f4 0, #5a8cc5);
-    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -o-linear-gradient(right, #252525, #252525 50%, #4285f4 50%, #5a8cc5);
-    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), linear-gradient(270deg, #252525, #252525 50%, #4285f4 0, #5a8cc5)
+    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #2b88ef), to(#5093e2));
+    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #2b88ef 0, #5093e2);
+    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -o-linear-gradient(right, #252525, #252525 50%, #2b88ef 50%, #5093e2);
+    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), linear-gradient(270deg, #252525, #252525 50%, #2b88ef 0, #5093e2)
 }
 #userinfo_major li {
     display: inline-block
@@ -1865,10 +1865,10 @@ ul#userinfo_username li:not(#nav_userinfo) a {
     -webkit-transition: background-position .3s linear;
     -o-transition: background-position .3s linear;
     transition: background-position .3s linear;
-    background: #0e0f11 -webkit-gradient(linear, right top, left top, from(#0e0f11), color-stop(50.5%, #0e0f11), color-stop(50.5%, #4285f4), to(#5a8cc5)) no-repeat 100% bottom;
-    background: #0e0f11 -webkit-linear-gradient(right, #0e0f11, #0e0f11 50.5%, #4285f4 0, #5a8cc5) no-repeat 100% bottom;
-    background: #0e0f11 -o-linear-gradient(right, #0e0f11, #0e0f11 50.5%, #4285f4 50.5%, #5a8cc5) no-repeat 100% bottom;
-    background: #0e0f11 linear-gradient(270deg, #0e0f11, #0e0f11 50.5%, #4285f4 0, #5a8cc5) no-repeat 100% bottom;
+    background: #0e0f11 -webkit-gradient(linear, right top, left top, from(#0e0f11), color-stop(50.5%, #0e0f11), color-stop(50.5%, #2b88ef), to(#5093e2)) no-repeat 100% bottom;
+    background: #0e0f11 -webkit-linear-gradient(right, #0e0f11, #0e0f11 50.5%, #2b88ef 0, #5093e2) no-repeat 100% bottom;
+    background: #0e0f11 -o-linear-gradient(right, #0e0f11, #0e0f11 50.5%, #2b88ef 50.5%, #5093e2) no-repeat 100% bottom;
+    background: #0e0f11 linear-gradient(270deg, #0e0f11, #0e0f11 50.5%, #2b88ef 0, #5093e2) no-repeat 100% bottom;
     background-size: 200% 2px
 }
 ul#userinfo_username:hover li:nth-of-type(3) {
@@ -1922,7 +1922,7 @@ ul#userinfo_username:hover li#nav_userinfo a {
 }
 
 #nav_bonus a{
-    background-image: url(../assets/icons/points.png)
+    background-image: url(../assets/icons/Header-Bonus.svg)
 }
 
 #nav_invite a {
@@ -1932,7 +1932,7 @@ ul#userinfo_username:hover li#nav_userinfo a {
     background-image: url(../assets/icons/Header-Donate.svg)
 }
 #userinfo_major #nav_logchecker a {
-    background-image: url(../assets/icons/Wiki-Log.svg)
+    background-image: url(../assets/icons/Header-Logchecker.svg)
 }
 #nav_donate a:hover,
 #nav_invite a:hover,
@@ -2109,10 +2109,10 @@ ul#userinfo_username:hover li#nav_userinfo a {
     color: #ccc
 }
 #menu ul li a:after {
-    background: -webkit-gradient(linear, left top, right top, color-stop(0, #5a8cc5), to(#4285f4));
-    background: -webkit-linear-gradient(left, #5a8cc5, #4285f4);
-    background: -o-linear-gradient(left, #5a8cc5 0, #4285f4 100%);
-    background: linear-gradient(90deg, #5a8cc5 0, #4285f4);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #5093e2), to(#2b88ef));
+    background: -webkit-linear-gradient(left, #5093e2, #2b88ef);
+    background: -o-linear-gradient(left, #5093e2 0, #2b88ef 100%);
+    background: linear-gradient(90deg, #5093e2 0, #2b88ef);
     border-radius: 3px;
     bottom: 3px;
     content: "";
@@ -2468,10 +2468,10 @@ ul#userinfo_username:hover li#nav_userinfo a {
 .noty_buttons a {
     margin: 0 10px;
     padding: 10px;
-    color: #4285f4
+    color: #2b88ef
 }
 .noty_buttons a:hover {
-    color: #93c5fd
+    color: #8fc2ff
 }
 @media screen and (max-width: 1200px) {
     .staff-tools {
@@ -2639,7 +2639,7 @@ ul#userinfo_username:hover li#nav_userinfo a {
     background-color: #dd6899
 }
 .graphs .shape-20 {
-    background-color: #93c5fd
+    background-color: #8fc2ff
 }
 .graphs .shape-21 {
     background-color: #c4ce56
@@ -2771,7 +2771,7 @@ ul#userinfo_username:hover li#nav_userinfo a {
     transition: all .2s linear
 }
 .graphs .chart-color-20 {
-    stroke: #93c5fd
+    stroke: #8fc2ff
 }
 .graphs .chart-color-21 {
     stroke: #c4ce56
@@ -2987,7 +2987,7 @@ ul#userinfo_username:hover li#nav_userinfo a {
     transition: all .2s linear
 }
 .graphs .bar-color-20 {
-    fill: #93c5fd
+    fill: #8fc2ff
 }
 .graphs .bar-color-21 {
     fill: #c4ce56
@@ -3315,8 +3315,8 @@ ul.collage_images img {
 }
 /*In the collage page there's a glow around albums and below determines the color */
 ul.collage_images img:hover {
-    -webkit-box-shadow: 0 0 5px #4285f4;
-    box-shadow: 0 0 5px #4285f4
+    -webkit-box-shadow: 0 0 5px #2b88ef;
+    box-shadow: 0 0 5px #2b88ef
 }
 ul.collage_images li a {
     color: #555;
@@ -3489,11 +3489,11 @@ table.forum_post .colhead_dark td > div {
 }
 /* */
 .forum_post.forum_unread .colhead_dark td {
-    background: #93c5fd;
-    background: #93c5fd -webkit-gradient(linear, left bottom, left top, color-stop(0, #93c5fd), to(#1958bd));
-    background: #93c5fd -webkit-linear-gradient(bottom, #1958bd, #1958bd);
-    background: #93c5fd -o-linear-gradient(bottom, #1958bd 0, #1958bd 100%);
-    background: #93c5fd linear-gradient(0deg, #1958bd 0, #1a3b66);
+    background: #8fc2ff;
+    background: #8fc2ff -webkit-gradient(linear, left bottom, left top, color-stop(0, #8fc2ff), to(#1b6dbb));
+    background: #8fc2ff -webkit-linear-gradient(bottom, #1b6dbb, #1b6dbb);
+    background: #8fc2ff -o-linear-gradient(bottom, #1b6dbb 0, #1b6dbb 100%);
+    background: #8fc2ff linear-gradient(0deg, #1b6dbb 0, #1a3b66);
     border-bottom: 1px solid #2e4a73;
     color: #e0d7d7
 }
@@ -3585,7 +3585,7 @@ table.forum_post td.body {
     -webkit-transition: all .1s linear;
     -o-transition: all .1s linear;
     transition: all .1s linear;
-    color: #93c5fd
+    color: #8fc2ff
 }
 .forum_index tr:not(.colhead),
 table.forum_list tr:not(.colhead) {
@@ -3623,7 +3623,7 @@ table.forum_list tr.colhead td {
     z-index: 5000;
     padding-left: 8px;
     padding-right: 25px;
-    color: #4285f4;
+    color: #2b88ef;
     text-transform: uppercase
 }
 .forum_list.border td {
@@ -3767,7 +3767,7 @@ form#poll input {
 #forums .search_form .cat_list td.forum_cat strong {
     display: inline-block;
     padding: 10px 2px 3px 4px!important;
-    color: #4285f4
+    color: #2b88ef
 }
 #forums .search_form .cat_list td.forum_cat a {
     font-size: 1em;
@@ -3877,9 +3877,9 @@ li.graph {
     height: 14px;
     overflow: hidden;
     position: relative;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#93c5fd), to(#93c5fd));
-    background-image: -webkit-linear-gradient(top, #93c5fd, #93c5fd);
-    background-image: -o-linear-gradient(top, #93c5fd, #93c5fd);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#8fc2ff), to(#8fc2ff));
+    background-image: -webkit-linear-gradient(top, #8fc2ff, #8fc2ff);
+    background-image: -o-linear-gradient(top, #8fc2ff, #8fc2ff);
     background-image: linear-gradient(180deg, #102d54, #174378)
 }
 .center_poll,
@@ -4048,7 +4048,7 @@ span[style*="color: red;"] a {
     background: #86be54
 }
 #log_table .log_edited:before {
-    background: #5a8cc5
+    background: #5093e2
 }
 #log_table .log_deleted:before {
     background: #ae3232
@@ -4248,7 +4248,7 @@ span[style*="color: red;"] a {
 #rules div ul li > strong {
     font-size: 1em;
     font-weight: 400;
-    color: #4285f4
+    color: #2b88ef
 }
 #rules a strong {
     color: #fff
@@ -4535,7 +4535,7 @@ table.staff {
 .torrent_table .discog span > a:hover,
 .torrent_table .discog strong > a:hover,
 .torrent_table .group_info > a:hover {
-    color: #93c5fd
+    color: #8fc2ff
 }
 .torrent_table tr:not(.edition):not(.group):not(.colhead):not(.colhead_dark):not(.torrentdetails):hover td {
     background: hsla(0, 40%, 88%, .02)
@@ -4625,7 +4625,7 @@ table.staff {
 .torrent_table .group_torrent > td > span a,
 /*DL FL RP buttons */
 .torrent_table span a {
-    color: #93c5fd!important;
+    color: #8fc2ff!important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .9)
 }
 .torrent_links_block a:hover,
@@ -4731,7 +4731,7 @@ table.staff {
 }
 .snatched_group .show_torrents_link:after,
 .snatched_group .show_torrents_link:before {
-    background-color: #4285f4
+    background-color: #2b88ef
 }
 #torrents .search_form strong {
     font-weight: 400
@@ -4838,7 +4838,7 @@ span.remove_bookmark a:hover {
     width: fit-content  /* Only as wide as content */
 }
 .request_table .tags {
-    background-color: rgba(66, 133, 244, 0.15);  /* your desired color */
+    background-color: rgba(43, 136, 239, 0.15);  /* your desired color */
 }
 .tags a {
     border-radius: 3px;
@@ -4857,7 +4857,7 @@ span.remove_bookmark a:hover {
 /*When you hover over tags like rock, electronic etc */
 .tags a:hover {
     background: rgba(0, 0, 0, .3);
-    color: #93c5fd
+    color: #8fc2ff
 }
 #torrents .torrentdetails div:nth-of-type(6) blockquote:last-child {
     font-size: .9em;
@@ -4905,7 +4905,7 @@ span.remove_bookmark a:hover {
 }
 /*When you click to view the file list in a torrent */
 .torrentdetails table .colhead_dark td {
-    color: #4285f4!important
+    color: #2b88ef!important
 }
 .filelist_title {
     display: none
@@ -4960,7 +4960,7 @@ span.remove_bookmark a:hover {
     margin: 5px auto 10px
 }
 #upload #dnulist tr:not(.colhead) td:first-of-type {
-    color: rgba(66, 133, 244, 0.6);  /* #4285f4 with 60% opacity */
+    color: rgba(43, 136, 239, 0.6);  /* #2b88ef with 60% opacity */
 }
 #upload #dnulist td {
     padding: 5px 10px;
@@ -5095,7 +5095,7 @@ padding-bottom:0 !important;
     padding: 2%
 }
 #user table.recent img:hover {
-    background: #4285f4;
+    background: #2b88ef;
     -webkit-box-shadow: 0 0 6px -2px rgba(235, 245, 20, 0);
     box-shadow: 0 0 6px -2px rgba(235, 245, 20, 0)
 }
@@ -5172,7 +5172,7 @@ padding-bottom:0 !important;
     color: #f9f1ef
 }
 #userform .sidebar #settings_sections a:hover {
-    color: #4285f4
+    color: #2b88ef
 }
 #userform table td:first-of-type {
     white-space: nowrap
@@ -5528,8 +5528,8 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 /* Base state for all autocomplete links - GREEN VERSION */
 .autocomplete-menu a[href*="artist.php"],
 .autocomplete-menu a[href*="discogs.com"] {
-    -webkit-text-fill-color: #4285f4 !important; 
-    color: #4285f4 !important;
+    -webkit-text-fill-color: #2b88ef !important; 
+    color: #2b88ef !important;
     text-decoration: none !important;
     transition: color 0.1s ease;
 }
@@ -5537,8 +5537,8 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 /* Hover state - lighter green */
 .autocomplete-menu a[href*="artist.php"]:hover,
 .autocomplete-menu a[href*="discogs.com"]:hover {
-    -webkit-text-fill-color: #93c5fd !important;
-    color: #93c5fd !important;
+    -webkit-text-fill-color: #8fc2ff !important;
+    color: #8fc2ff !important;
 }
 
 /* Testing tag fix */
@@ -5571,7 +5571,7 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 .torrent_table .tags a:hover,
 .collage_table .tags a:hover,
 #collage .tags a:hover {
-  color: #93c5fd;               
+  color: #8fc2ff;               
 }
 
 /* Fixing some of the odd colours */
