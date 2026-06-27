@@ -4556,9 +4556,9 @@ table.staff {
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, .4);
     padding: 2px;
     width: 90px;
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
+    -webkit-transition: z-index 0s linear .28s;
+    -o-transition: z-index 0s linear .28s;
+    transition: z-index 0s linear .28s;
     z-index: 1
 }
 .torrent_table,
@@ -4574,9 +4574,9 @@ table.staff {
 .torrent_table .td_info,
 .torrent_table .big_info {
     position: relative;
-    -webkit-transition: background-color .15s linear;
-    -o-transition: background-color .15s linear;
-    transition: background-color .15s linear;
+    -webkit-transition: background-color .15s linear, z-index 0s linear .28s;
+    -o-transition: background-color .15s linear, z-index 0s linear .28s;
+    transition: background-color .15s linear, z-index 0s linear .28s;
     z-index: 1
 }
 .torrent_table tr:has(.group_image:hover),
@@ -4591,6 +4591,9 @@ table.staff {
     z-index: 2147483000 !important
 }
 .torrent_table .group_image:hover {
+    -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
     z-index: 2147483001 !important
 }
 .group_image img {
@@ -4601,40 +4604,33 @@ table.staff {
     object-fit: cover;
     position: absolute !important;
     top: 2px;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
     -webkit-transform: none !important;
     transform: none !important;
-    -webkit-transition: none !important;
-    -o-transition: none !important;
-    transition: none !important;
+    -webkit-transition: left .28s cubic-bezier(.2, .85, .25, 1), top .28s cubic-bezier(.2, .85, .25, 1), width .28s cubic-bezier(.2, .85, .25, 1), height .28s cubic-bezier(.2, .85, .25, 1), -webkit-box-shadow .28s cubic-bezier(.2, .85, .25, 1), z-index 0s linear .28s;
+    transition: left .28s cubic-bezier(.2, .85, .25, 1), top .28s cubic-bezier(.2, .85, .25, 1), width .28s cubic-bezier(.2, .85, .25, 1), height .28s cubic-bezier(.2, .85, .25, 1), -webkit-box-shadow .28s cubic-bezier(.2, .85, .25, 1), z-index 0s linear .28s;
+    -o-transition: left .28s cubic-bezier(.2, .85, .25, 1), top .28s cubic-bezier(.2, .85, .25, 1), width .28s cubic-bezier(.2, .85, .25, 1), height .28s cubic-bezier(.2, .85, .25, 1), box-shadow .28s cubic-bezier(.2, .85, .25, 1), z-index 0s linear .28s;
+    transition: left .28s cubic-bezier(.2, .85, .25, 1), top .28s cubic-bezier(.2, .85, .25, 1), width .28s cubic-bezier(.2, .85, .25, 1), height .28s cubic-bezier(.2, .85, .25, 1), box-shadow .28s cubic-bezier(.2, .85, .25, 1), z-index 0s linear .28s;
+    transition: left .28s cubic-bezier(.2, .85, .25, 1), top .28s cubic-bezier(.2, .85, .25, 1), width .28s cubic-bezier(.2, .85, .25, 1), height .28s cubic-bezier(.2, .85, .25, 1), box-shadow .28s cubic-bezier(.2, .85, .25, 1), -webkit-box-shadow .28s cubic-bezier(.2, .85, .25, 1), z-index 0s linear .28s;
     width: 90px;
     z-index: 1
 }
 .group_image:hover img {
-    height: 90px;
-    left: 2px;
+    --torrent-preview-gutter: calc((100vw - 1127px) / 2);
+    --torrent-preview-size: min(288px, max(90px, calc(var(--torrent-preview-gutter) - 18px)));
+    height: var(--torrent-preview-size);
+    left: calc(47px - var(--torrent-preview-size) / 2);
+    pointer-events: none;
     position: absolute !important;
-    top: 2px;
-    width: 90px;
-    z-index: 1
-}
-.dicblue-cover-preview {
-    background: #010101;
     -webkit-box-shadow: 0 0 0 2px #010101, 0 0 6px 3px rgba(0, 0, 0, .55);
     box-shadow: 0 0 0 2px #010101, 0 0 6px 3px rgba(0, 0, 0, .55);
-    display: none;
-    height: 288px;
-    left: 18px;
-    max-height: 288px;
-    max-width: 288px;
-    object-fit: cover;
-    pointer-events: none;
-    position: fixed;
-    top: 18px;
-    width: 288px;
-    z-index: 2147483002
-}
-.dicblue-cover-preview.is-visible {
-    display: block
+    top: calc(47px - var(--torrent-preview-size) / 2);
+    -webkit-transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
+    -o-transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
+    transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
+    width: var(--torrent-preview-size);
+    z-index: 2147483002 !important
 }
 .big_info,
 .group td {
