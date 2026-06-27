@@ -4544,65 +4544,69 @@ table.staff {
     background: hsla(0, 40%, 88%, .02)
 }
 .group_image {
+    -webkit-transform: translateZ(0) scale(1);
+    -webkit-transform-origin: top left;
+    -webkit-transition: none;
     height: 90px;
     margin: 3px 10px 3px 3px;
     min-height: 90px;
     min-width: 90px;
     overflow: visible;
     position: relative;
+    transform: translateZ(0) scale(1);
+    transform-origin: top left;
+    transition: none;
     text-align: center;
     background: #010101;
     -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, .4);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, .4);
     padding: 2px;
-    width: 90px
+    width: 90px;
+    will-change: transform;
+    z-index: 1
 }
 .torrent_table,
-.torrent_table tbody {
+.torrent_table tbody,
+.torrent_table tr,
+.torrent_table td,
+.torrent_table .td_info,
+.torrent_table .big_info {
     overflow: visible !important
 }
-.torrent_table:has(.group_image:hover) tr,
-.torrent_table:has(.group_image:hover) td {
-    position: relative;
-    z-index: 0
+.torrent_table .td_info,
+.torrent_table .big_info {
+    position: relative
 }
 .torrent_table tr:has(.group_image:hover),
 .torrent_table tr:has(.group_image:hover) > td,
 .torrent_table tr:has(.group_image:hover) .td_info,
-.torrent_table tr:has(.group_image:hover) .big_info,
-.torrent_table tr:has(.group_image:hover) .group_info {
+.torrent_table tr:has(.group_image:hover) .big_info {
     overflow: visible !important;
     position: relative !important;
     z-index: 2147483000 !important
 }
-.torrent_table tr:has(.group_image:hover) .group_image {
-    overflow: visible !important;
-    position: absolute !important;
+.torrent_table .group_image:hover {
+    -webkit-transform: translateZ(0) scale(3.2);
+    transform: translateZ(0) scale(3.2);
     z-index: 2147483001 !important
 }
 .group_image img {
-    -webkit-transition: -webkit-transform .2s ease;
-    transition: -webkit-transform .2s ease;
-    -o-transition: transform .2s ease;
-    transition: transform .2s ease;
-    transition: transform .2s ease, -webkit-transform .2s ease;
-    -webkit-transition-delay: .2s;
-    -o-transition-delay: .2s;
-    transition-delay: .2s;
-    -webkit-transition-timing-function: cubic-bezier;
-    -o-transition-timing-function: cubic-bezier;
-    transition-timing-function: cubic-bezier;
-    z-index: 31415
+    display: block;
+    height: 90px;
+    max-width: none;
+    position: static !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    width: 90px
 }
 .group_image:hover img {
-    border-radius: 0;
-    position: absolute;
-    z-index: 2147483002 !important;
-    -webkit-transform: scale(3.2);
-    -ms-transform: scale(3.2);
-    transform: scale(3.2);
-    left: 2px;
-    top: 2px
+    height: 90px;
+    left: auto;
+    top: auto;
+    width: 90px
 }
 .big_info,
 .group td {
