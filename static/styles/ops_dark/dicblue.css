@@ -4556,9 +4556,9 @@ table.staff {
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, .4);
     padding: 2px;
     width: 90px;
-    -webkit-transition: z-index 0s linear .24s;
-    -o-transition: z-index 0s linear .24s;
-    transition: z-index 0s linear .24s;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
     z-index: 1
 }
 .torrent_table,
@@ -4574,9 +4574,9 @@ table.staff {
 .torrent_table .td_info,
 .torrent_table .big_info {
     position: relative;
-    -webkit-transition: background-color .15s linear, z-index 0s linear .24s;
-    -o-transition: background-color .15s linear, z-index 0s linear .24s;
-    transition: background-color .15s linear, z-index 0s linear .24s;
+    -webkit-transition: background-color .15s linear;
+    -o-transition: background-color .15s linear;
+    transition: background-color .15s linear;
     z-index: 1
 }
 .torrent_table tr:has(.group_image:hover),
@@ -4591,9 +4591,6 @@ table.staff {
     z-index: 2147483000 !important
 }
 .torrent_table .group_image:hover {
-    -webkit-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s;
     z-index: 2147483001 !important
 }
 .group_image img {
@@ -4606,23 +4603,19 @@ table.staff {
     top: 2px;
     -webkit-transform: none !important;
     transform: none !important;
-    -webkit-transition: width .22s ease, height .22s ease, -webkit-box-shadow .22s ease, z-index 0s linear .24s;
-    transition: width .22s ease, height .22s ease, -webkit-box-shadow .22s ease, z-index 0s linear .24s;
-    -o-transition: width .22s ease, height .22s ease, box-shadow .22s ease, z-index 0s linear .24s;
-    transition: width .22s ease, height .22s ease, box-shadow .22s ease, z-index 0s linear .24s;
-    transition: width .22s ease, height .22s ease, box-shadow .22s ease, -webkit-box-shadow .22s ease, z-index 0s linear .24s;
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
     width: 90px;
     z-index: 1
 }
 .group_image:hover img {
-    height: 288px;
-    -webkit-box-shadow: 0 0 0 2px #010101, 0 0 6px 3px rgba(0, 0, 0, .55);
-    box-shadow: 0 0 0 2px #010101, 0 0 6px 3px rgba(0, 0, 0, .55);
-    -webkit-transition-delay: 0s, 0s, 0s, 0s;
-    -o-transition-delay: 0s, 0s, 0s, 0s;
-    transition-delay: 0s, 0s, 0s, 0s;
-    width: 288px;
-    z-index: 2147483002 !important
+    height: 90px;
+    left: 2px;
+    position: absolute !important;
+    top: 2px;
+    width: 90px;
+    z-index: 1
 }
 .big_info,
 .group td {
