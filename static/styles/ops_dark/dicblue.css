@@ -4570,11 +4570,15 @@ table.staff {
 .torrent_table tr:has(.group_image:hover) > td,
 .torrent_table tr:has(.group_image:hover) .td_info,
 .torrent_table tr:has(.group_image:hover) .big_info,
-.torrent_table tr:has(.group_image:hover) .group_info,
-.torrent_table tr:has(.group_image:hover) .group_image {
+.torrent_table tr:has(.group_image:hover) .group_info {
     overflow: visible !important;
     position: relative !important;
     z-index: 2147483000 !important
+}
+.torrent_table tr:has(.group_image:hover) .group_image {
+    overflow: visible !important;
+    position: absolute !important;
+    z-index: 2147483001 !important
 }
 .group_image img {
     -webkit-transition: -webkit-transform .2s ease;
@@ -4593,7 +4597,7 @@ table.staff {
 .group_image:hover img {
     border-radius: 0;
     position: absolute;
-    z-index: 2147483001 !important;
+    z-index: 2147483002 !important;
     -webkit-transform: scale(3.2);
     -ms-transform: scale(3.2);
     transform: scale(3.2);
