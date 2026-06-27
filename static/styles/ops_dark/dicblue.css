@@ -922,8 +922,7 @@ marquee {
     max-width: 100%!important
 }
 .main_column {
-    margin: 0 310px 0 0;
-    background-color: #1a1c1d
+    margin: 0 310px 0 0
 }
 .main_column .box,
 .main_column table {
@@ -976,7 +975,7 @@ td.label {
     max-width: 1150px;
     padding: 18px;
     width: 97%;
-    background: transparent;
+    background: #18191a;
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none
