@@ -5320,6 +5320,47 @@ padding-bottom:0 !important;
     margin-bottom: 4px!important;
     margin-right: 4px!important
 }
+#torrents .filter_torrents {
+    font-size: 13px;
+    margin: 10px auto 25px;
+    padding: 14px 0
+}
+#torrents .filter_torrents table,
+#torrents .filter_torrents td,
+#torrents .filter_torrents th,
+#torrents .filter_torrents label,
+#torrents .filter_torrents input,
+#torrents .filter_torrents select {
+    font-size: 13px
+}
+#torrents .filter_torrents .pad {
+    padding: 12px 20px
+}
+#torrents .filter_torrents table td {
+    padding: 6px 8px
+}
+#torrents .filter_torrents table.layout td.label {
+    padding-right: 6px;
+    text-align: right;
+    width: 20%
+}
+#torrents .filter_torrents input[type=search],
+#torrents .filter_torrents input[type=text] {
+    font-size: 13px !important;
+    height: 29px;
+    max-width: 500px !important
+}
+#torrents .filter_torrents select {
+    height: 29px;
+    min-height: 29px
+}
+#torrents .filter_torrents .smallest {
+    max-width: 90px !important
+}
+#torrents .filter_torrents label {
+    margin-bottom: 0 !important;
+    margin-right: 6px !important
+}
 .wiki_log_table td {
     padding: 8px
 }
@@ -5439,6 +5480,25 @@ ol.navigation_list li li {
 #categories td:last-child .cat-choice:nth-child(11) {
     position: relative;
     left: -18px;
+}
+#torrents .filter_torrents .ft_cat_list td {
+    padding: 4px 8px;
+    text-align: left;
+    width: auto
+}
+#torrents .filter_torrents .ft_cat_list input[type=checkbox] {
+    margin-right: 6px
+}
+#torrents .filter_torrents #taglist {
+    table-layout: fixed
+}
+#torrents .filter_torrents #taglist td {
+    padding: 1px 8px
+}
+#torrents .filter_torrents #taglist a {
+    font-size: 13px;
+    line-height: 1.25;
+    padding: 1px 0
 }
 
 /* New artist autocomplete menu. testing */
