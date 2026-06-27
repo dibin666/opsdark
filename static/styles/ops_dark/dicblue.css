@@ -221,7 +221,7 @@ template {
 .box2,
 .create_form,
 .edit_form {
-    background-color: transparent;
+    background-color: #1a1c1d;
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none
@@ -249,9 +249,9 @@ template {
 .vertical_space.box,
 table.forum_post {
     background-color: #1a1c1d;
-    border: 1px solid #282b2e;
-    -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, .2);
-    box-shadow: 0 0 4px 1px rgba(0, 0, 0, .2)
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
 }
 .inbox_message .head,
 .vertical_space.box .head,
