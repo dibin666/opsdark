@@ -4566,11 +4566,12 @@ table.staff {
     position: relative;
     z-index: 0
 }
-.torrent_table tr.group:has(.group_image:hover),
-.torrent_table tr.group:has(.group_image:hover) > td,
-.torrent_table tr.group:has(.group_image:hover) .td_info,
-.torrent_table tr.group:has(.group_image:hover) .big_info,
-.torrent_table tr.group:has(.group_image:hover) .group_image {
+.torrent_table tr:has(.group_image:hover),
+.torrent_table tr:has(.group_image:hover) > td,
+.torrent_table tr:has(.group_image:hover) .td_info,
+.torrent_table tr:has(.group_image:hover) .big_info,
+.torrent_table tr:has(.group_image:hover) .group_info,
+.torrent_table tr:has(.group_image:hover) .group_image {
     overflow: visible !important;
     position: relative !important;
     z-index: 2147483000 !important
