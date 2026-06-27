@@ -221,7 +221,7 @@ template {
 .box2,
 .create_form,
 .edit_form {
-    background-color: #1a1c1d;
+    background-color: transparent;
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none
@@ -248,7 +248,7 @@ template {
 .users_reports_table,
 .vertical_space.box,
 table.forum_post {
-    background-color: #1a1c1d;
+    background-color: transparent;
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none
@@ -975,7 +975,7 @@ td.label {
     max-width: 1150px;
     padding: 18px;
     width: 97%;
-    background: transparent;
+    background: #1a1c1d;
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none
